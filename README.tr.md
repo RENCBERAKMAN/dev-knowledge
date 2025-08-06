@@ -4,19 +4,19 @@
 
 Backend, oyun geliştirme ve diğer yazılım alanlarında öğrendiğim konuların düzenli ve sistemli tutulduğu kişisel bilgi deposu.
 
-⸻
+⸻------------------------------------------------------------------------
 
 📚 Hakkında
 
 Bu depo, yazılım geliştirme sürecinde öğrendiğim temel kavramlar, teknolojiler, kod örnekleri ve en iyi uygulamalardan oluşan kişisel bir arşivdir. Backend, oyun geliştirme, veritabanları, DevOps gibi alanlardaki bilgileri düzenli şekilde saklamayı ve gerektiğinde başvurabileceğim bir kaynak oluşturmayı hedefliyorum.
 
-⸻
+⸻------------------------------------------------------------------------
 
 🚀 Kullanım
 
 İlgilendiğiniz konu başlıkları altında, ilgili klasörlerde detaylı notlar ve örnekler bulabilirsiniz. Bu depo, yeni teknolojiler ve kavramlar öğrendikçe düzenli olarak güncellenmektedir.
 
-⸻
+⸻-----------------------------------------------------------------------
 
 ℹ️ Not
 

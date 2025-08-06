@@ -4,19 +4,19 @@
 
 A personal knowledge repository where I systematically and neatly organize the topics I have learned in backend, game development, and other software fields.
 
-⸻
+⸻----------------------------------------------------------------
 
 📚 About
 
 This repository is a personal archive consisting of fundamental concepts, technologies, code examples, and best practices I have learned during the software development process. I aim to store information in areas such as backend, game development, databases, and DevOps in an organized way and create a resource I can refer to when needed.
 
-⸻
+⸻----------------------------------------------------------------
 
 🚀 Usage
 
 Under the relevant folders of the topics you are interested in, you can find detailed notes and examples. This repository is regularly updated as I learn new technologies and concepts.
 
-⸻
+⸻----------------------------------------------------------------
 
 ℹ️ Note
 
