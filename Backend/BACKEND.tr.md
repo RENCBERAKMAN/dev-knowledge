@@ -237,6 +237,26 @@ Sliding Window: Zaman penceresi kaydırılarak istekler daha adil bir şekilde d
 
 ✅Özet: Rate limiting, bir backend geliştirici için sistem performansı, güvenliği ve istikrarı açısından kritik bir mekanizmadır.
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⚡ Caching (Önbellekleme) Nedir?
+
+⚡ Caching (Önbellekleme), veriyi daha hızlı erişebilmek için geçici bellekte saklama işlemidir. Amaç, aynı veriyi tekrar tekrar yavaş bir kaynaktan (örneğin veritabanı veya uzak bir API) çekmek yerine, bellekte tutarak milisaniyeler içinde erişmektir. Bu sayede performans artar 🚀, veritabanı yükü azalır 💾 ve kullanıcı deneyimi iyileşir .
+
+Backend dünyasında caching genellikle şu şekilde çalışır: Bir istek geldiğinde önce cache’e bakılır. Eğer veri cache’te varsa doğrudan oradan döndürülür, yoksa veritabanından çekilir, cache’e yazılır ve istemciye iletilir. Bu süreçte verinin cache’te kalma süresi TTL (Time To Live) ile belirlenir, böylece eski veriler otomatik olarak silinir veya yenilenir.
+
+En yaygın kullanılan cache sistemleri arasında Redis 🟥 ve Memcached 🟩 bulunur. Java projelerinde Spring Boot Cache desteği ile kolayca entegre edilebilir.
+
+📌 Dikkat Edilmesi Gerekenler
+Veri Güncelliği: Cache’teki veri zamanla eskir. TTL ayarını iyi yapmak gerekir ⏳.
+
+Bellek Yönetimi: Cache bellekten yer kaplar, sınırsız büyümesine izin verme 💾.
+
+Doğru Kullanım: Sık erişilen, nadiren değişen veriler için uygundur; sürekli değişen veriler için verimsiz olabilir ⚠️.
+
+Senkranizasyon: Cache ile asıl veri kaynağının tutarlı kalması sağlanmalı 🔄.
+
+Temizleme Stratejileri: LRU (Least Recently Used) gibi algoritmalarla kullanılmayan verileri silmek iyi bir pratiktir 🧹.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
