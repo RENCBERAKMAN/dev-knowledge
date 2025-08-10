@@ -260,7 +260,7 @@ Temizleme Stratejileri: LRU (Least Recently Used) gibi algoritmalarla kullanılm
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## SQL ve NoSQL Arasındaki Temel Farklar 💡
+## 🔍⭐SQL ve NoSQL Arasındaki Temel Farklar 💡
 SQL ve NoSQL, verileri depolamak için kullanılan iki farklı sistemdir. Her ikisi de veriyi saklar ama bunu farklı şekillerde yapar.
 
 1. Veri Yapısı 🗂️
