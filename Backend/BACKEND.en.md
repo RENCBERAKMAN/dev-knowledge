@@ -235,7 +235,7 @@ Example usage scenarios:
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## ⚡What is Caching?
+## 🔍⭐What is Caching?
  Caching is the process of storing data temporarily in memory to access it faster. The goal is to avoid fetching the same data repeatedly from a slow source (such as a database or a remote API) by keeping it in memory and retrieving it in milliseconds instead. This improves performance 🚀, reduces database load 💾, and enhances the user experience .
 
 In backend systems, caching typically works like this: When a request comes in, the system first checks the cache. If the data exists in the cache, it is returned directly. If not, the data is fetched from the database, stored in the cache, and then returned to the client. The amount of time the data stays in the cache is determined by TTL (Time To Live), ensuring that outdated data is automatically deleted or refreshed.

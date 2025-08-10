@@ -239,7 +239,7 @@ Sliding Window: Zaman penceresi kaydırılarak istekler daha adil bir şekilde d
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## ⚡ Caching (Önbellekleme) Nedir?
+## 🔍⭐Caching (Önbellekleme) Nedir?
 
 ⚡ Caching (Önbellekleme), veriyi daha hızlı erişebilmek için geçici bellekte saklama işlemidir. Amaç, aynı veriyi tekrar tekrar yavaş bir kaynaktan (örneğin veritabanı veya uzak bir API) çekmek yerine, bellekte tutarak milisaniyeler içinde erişmektir. Bu sayede performans artar 🚀, veritabanı yükü azalır 💾 ve kullanıcı deneyimi iyileşir .
 
