@@ -255,7 +255,7 @@ Eviction Strategies: Use algorithms like LRU (Least Recently Used) to remove unu
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## Key Differences Between SQL and NoSQL 💡
+## 🔍⭐Key Differences Between SQL and NoSQL 💡
 SQL and NoSQL are two different systems used to store data. Both store data, but they do it in different ways.
 
 Data Structure 🗂️
