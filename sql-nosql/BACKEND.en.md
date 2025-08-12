@@ -2,7 +2,7 @@
   <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-coding-web-development-flaticons-lineal-color-flat-icons.png" alt="Coding Icon" />
 </p>
 
-## Key Differences Between SQL and NoSQL 💡
+## 🔍⭐Key Differences Between SQL and NoSQL 💡
 SQL and NoSQL are two different systems used to store data. Both store data, but they do it in different ways.
 
 Data Structure 🗂️
@@ -36,6 +36,37 @@ SQL: Systems with structured data and complex relationships where data integrity
 NoSQL: Applications requiring flexible data structures and rapid growth; social media, big data, real-time analytics.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐What is a JOIN operation? What’s the difference between INNER JOIN and LEFT JOIN?
+JOIN in SQL is used to combine data from multiple tables based on a common column. This column is usually an id or a foreign key. The goal is to display related data in a single result set.
+
+📌 Example: Suppose we have a Customers table and an Orders table. To get a customer’s order information, we use JOIN to combine these two tables.
+
+INNER JOIN 🔍
+
+Returns only the rows that have matching values in both tables.
+
+If there’s no match, the row is not included in the result.
+
+Logic: Intersection set
+
+Example: A list of only the customers who have placed orders.
+
+LEFT JOIN ↔️
+
+Returns all rows from the left table. If there’s no match in the right table, those columns will contain NULL.
+
+Logic: All rows from the left table + data from the right table if it exists
+
+Example: A list of all customers, with empty order information for those who haven’t placed an order.
+
+✅ Difference:
+
+INNER JOIN → Only matching rows ✅
+
+LEFT JOIN → All rows from the left table, add from the right if available, otherwise NULL 🗒️
+
+💡 Pro Tip: Avoid unnecessary LEFT JOINs as they can hurt performance. To find non-matching records, use:
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

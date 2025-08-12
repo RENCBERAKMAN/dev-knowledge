@@ -2,7 +2,7 @@
   <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-coding-web-development-flaticons-lineal-color-flat-icons.png" alt="Coding Icon" />
 </p>
 
-## SQL ve NoSQL Arasındaki Temel Farklar 💡
+## 🔍⭐SQL ve NoSQL Arasındaki Temel Farklar 💡
 SQL ve NoSQL, verileri depolamak için kullanılan iki farklı sistemdir. Her ikisi de veriyi saklar ama bunu farklı şekillerde yapar.
 
 1. Veri Yapısı 🗂️
@@ -31,6 +31,37 @@ SQL: Yapısal ve karmaşık ilişkilerin olduğu, veri bütünlüğünün kritik
 NoSQL: Hızlı büyüyen, esnek veri yapısı gereken uygulamalar; sosyal medya, büyük veri, gerçek zamanlı analiz gibi.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐JOIN işlemi nedir? INNER JOIN ile LEFT JOIN farkı nedir?
+JOIN, SQL’de birden fazla tablodaki verileri ortak bir sütun üzerinden birleştirmeye yarar. Bu sütun genelde id veya foreign key olur. Amaç, ilişkili verileri tek bir sonuç kümesinde göstermek.
+
+📌 Örneğin, Müşteriler tablosu ve Siparişler tablosu olsun. Bir müşterinin sipariş bilgilerini almak için bu iki tabloyu JOIN ile birleştiririz.
+
+INNER JOIN 🔍
+
+Sadece iki tabloda da eşleşen kayıtları getirir.
+
+Eşleşme yoksa o satır sonuçta yer almaz.
+
+Mantık: Kesişim kümesi
+
+Örnek: Sadece sipariş vermiş müşterilerin listesi.
+
+LEFT JOIN ↔️
+
+Sol tablodaki tüm kayıtları getirir. Sağ tabloda eşleşme yoksa o sütunlar NULL olur.
+
+Mantık: Sol tablonun tamamı + sağ tablo varsa ek veriler
+
+Örnek: Tüm müşterilerin listesi, siparişi olmayanlarda sipariş bilgisi boş.
+
+✅ Fark:
+
+INNER JOIN → Yalnızca eşleşenler ✅
+
+LEFT JOIN → Solun tamamı, sağ varsa ekle, yoksa boş 🗒️
+
+💡 Püf Nokta: Gereksiz LEFT JOIN performansı düşürür. Eşleşmeyen kayıtları bulmak için LEFT JOIN ... WHERE sağ_tablo.sütun IS NULL tekniği yaygındır. Büyük verilerde index kullanmak sorguyu hızlandırır.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
