@@ -63,6 +63,32 @@ LEFT JOIN → Solun tamamı, sağ varsa ekle, yoksa boş 🗒️
 
 💡 Püf Nokta: Gereksiz LEFT JOIN performansı düşürür. Eşleşmeyen kayıtları bulmak için LEFT JOIN ... WHERE sağ_tablo.sütun IS NULL tekniği yaygındır. Büyük verilerde index kullanmak sorguyu hızlandırır.
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐Veritabanında Primary Key nedir, Foreign Key nedir?
+Primary Key, bir tabloda her satırı benzersiz şekilde tanımlayan sütun (veya sütun grubu) demektir. Aynı değere sahip iki satır olamaz ve NULL değeri içeremez.
+
+📌 Örnek: Müşteriler tablosunda customer_id primary key olabilir, çünkü her müşteri benzersiz bir ID’ye sahiptir.
+
+Foreign Key, bir tabloda başka bir tablodaki primary key’e referans veren sütun (veya sütun grubu) demektir. Bu, tablolar arasında ilişki kurar ve referans bütünlüğünü sağlar.
+
+📌 Örnek: Siparişler tablosunda customer_id foreign key olarak Müşteriler tablosundaki customer_id’yi gösterir. Böylece her sipariş doğru müşteriye bağlanır.
+
+✅ Fark:
+
+Primary Key → Kendi tablosunda satırları benzersiz şekilde tanımlar ✅
+
+Foreign Key → Başka tablodaki primary key ile ilişki kurar 🗒️
+
+💡 Püf Nokta:
+
+Her tablonun bir primary key’i olmalı.
+
+Foreign key’ler, verinin tutarlılığını sağlar ve “yetim” kayıt oluşmasını engeller.
+
+JOIN işlemlerinde foreign key’lerde index kullanmak sorguları hızlandırır.
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

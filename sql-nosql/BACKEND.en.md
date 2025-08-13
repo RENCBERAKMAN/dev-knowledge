@@ -68,5 +68,29 @@ LEFT JOIN → All rows from the left table, add from the right if available, oth
 
 💡 Pro Tip: Avoid unnecessary LEFT JOINs as they can hurt performance. To find non-matching records, use:
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐What is a Primary Key and a Foreign Key in a Database?
+A Primary Key is a column (or set of columns) in a table that uniquely identifies each row. No two rows can have the same value, and it cannot contain NULL.
+
+📌 Example: In a Customers table, customer_id can be the primary key because each customer has a unique ID.
+
+A Foreign Key is a column (or set of columns) in a table that references the primary key in another table. It establishes a relationship between tables and ensures referential integrity.
+
+📌 Example: In an Orders table, customer_id can be a foreign key referencing the customer_id in the Customers table. This links each order to the correct customer.
+
+✅ Difference:
+
+Primary Key → Uniquely identifies rows in its own table ✅
+
+Foreign Key → Establishes a relationship with a primary key in another table 🗒️
+
+💡 Pro Tip:
+
+Every table should have a primary key.
+
+Foreign keys ensure data consistency and prevent orphaned records.
+
+Using indexes on foreign keys speeds up JOIN queries.
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
