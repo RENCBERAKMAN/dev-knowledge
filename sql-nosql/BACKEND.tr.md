@@ -88,6 +88,27 @@ Foreign key’ler, verinin tutarlılığını sağlar ve “yetim” kayıt olu�
 
 JOIN işlemlerinde foreign key’lerde index kullanmak sorguları hızlandırır.
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐Veri normalizasyonu nedir?
+
+Veri normalizasyonu, bir veritabanındaki bilgileri düzenli, tekrar etmeyen ve tutarlı şekilde saklama yöntemidir. Mantık çok basittir: aynı bilgiyi birden fazla yerde tutmak yerine, veriyi tek bir yerde saklayıp diğer tablolarla ilişkilendirmek. Böylece hem veri tutarlılığı sağlanır hem de gereksiz depolama önlenir.
+
+📌 Örnek: Diyelim ki bir Siparişler tablosunda müşteri adı, adresi ve telefon numarası her siparişte tekrar ediyorsa, bu normalizasyon yapılmamış bir tablodur. Normalizasyon uygulayarak müşteri bilgilerini ayrı bir Müşteriler tablosuna taşıyoruz. Artık her müşteri bilgisi sadece bir kez saklanır, siparişler tablosu ise sadece müşteri ID’si üzerinden bu tabloya bağlanır.
+
+✅ Böylece:
+
+Verinin tutarlılığı artar: güncelleme gerektiğinde tek noktadan yapılır ✅
+
+Depolama alanı tasarrufu sağlanır ✅
+
+Sorgular daha hızlı ve yönetim daha kolay olur ✅
+
+💡 Mantığın özü:
+
+“Her veri, sadece bir kez saklanmalı; tekrar eden veriler ayrı tablolarla ilişkilendirilmelidir.”
+
+📌 Ek ipucu: Normalizasyon genellikle 1NF, 2NF, 3NF gibi adımlarla yapılır. Ama bazı durumlarda performans için kontrollü denormalizasyon da tercih edilebilir.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />

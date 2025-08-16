@@ -92,5 +92,27 @@ Every table should have a primary key.
 Foreign keys ensure data consistency and prevent orphaned records.
 
 Using indexes on foreign keys speeds up JOIN queries.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+🔍⭐What is Data Normalization?
+
+Data normalization is a method of storing information in a database in an organized, non-redundant, and consistent way. The logic is simple: instead of storing the same information in multiple places, keep the data in one place and link it to other tables. This ensures data consistency and avoids unnecessary storage.
+
+📌 Example: Suppose in an Orders table, the customer name, address, and phone number are repeated for every order. This table is not normalized. By applying normalization, we move customer information to a separate Customers table. Now, each customer’s data is stored only once, and the Orders table links to it using the customer ID.
+
+✅ This way:
+
+Data consistency improves: updates are done in a single place ✅
+
+Storage space is saved ✅
+
+Queries become faster and management easier ✅
+
+💡 The essence of the logic:
+
+“Each piece of data should be stored only once; repeating data should be linked through separate tables.”
+
+📌 Extra tip: Normalization is usually done in steps like 1NF, 2NF, 3NF. However, in some cases, controlled denormalization is preferred for performance reasons.
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
