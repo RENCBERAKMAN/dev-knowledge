@@ -1,6 +1,6 @@
 <img src="https://img.shields.io/badge/status-Actively%20Learning-brightgreen?style=for-the-badge"/>
 
-## dev-knowledge
+📚 ## dev-knowledge
 
 A personal knowledge repository where I systematically and neatly organize the topics I have learned in backend, game development, and other software fields.
 
