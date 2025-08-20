@@ -182,7 +182,7 @@ Why is it Important?
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## ⚙️ What is Middleware? What Does It Do?
+## 🔍⭐What is Middleware? What Does It Do?
 Middleware is software that sits between an application and client requests, processing these requests in a specific way before passing them to the next stage.
 It typically operates between the request sent by the client and the response returned by the server.
 
