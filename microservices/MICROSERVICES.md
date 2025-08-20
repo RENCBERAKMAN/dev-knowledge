@@ -99,7 +99,8 @@ Build scalable and fault-tolerant systems
 Easily integrate new technologies
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐💡 Summary
+
+## 🔍⭐💡 Summary
 
 Microservices are at the heart of modern backend development. Small, independent, and testable services provide flexibility in both learning and production. It may seem complex at first, but once you grasp it step by step, it becomes one of the most powerful tools a professional backend developer should know! ⚡
 
