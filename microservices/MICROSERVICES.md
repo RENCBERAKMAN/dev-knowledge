@@ -3,7 +3,8 @@
 Microservices are an architecture used in modern software development to build modular, independent, and scalable systems. If you’re tired of “monolithic” applications—i.e., single-piece applications—microservices are the perfect solution! 💡
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐1️⃣ What are Microservices?
+
+## 🔍⭐1️⃣ What are Microservices?
 
 Microservices mean dividing a large application into small, independently running services. Each service performs a single function and can be deployed on its own.
 
@@ -16,7 +17,8 @@ Services communicate with each other via APIs (REST, gRPC, GraphQL, etc.).
 Think of it this way: a monolithic structure is like one giant file, whereas microservices work like LEGO blocks, running independently 🧩.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐2️⃣ Core Features of Microservices
+
+## 🔍⭐2️⃣ Core Features of Microservices
 
 Independence: Each microservice can be developed and deployed independently.
 
@@ -29,7 +31,8 @@ Scalability: You can scale only the service you need, not the entire system.
 Technology Independence: Each service can use different programming languages or databases.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐3️⃣ Advantages of Microservices 🌟
+
+## 🔍⭐3️⃣ Advantages of Microservices 🌟
 
 Easy maintenance and development: Working on smaller services is faster.
 
@@ -42,7 +45,8 @@ Fault isolation: If one service fails, others remain unaffected.
 Team independence: Different teams can work on different services in parallel.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐4️⃣ Things to Consider When Implementing Microservices ⚠️
+
+## 🔍⭐4️⃣ Things to Consider When Implementing Microservices ⚠️
 
 Define service boundaries clearly: Know which function belongs to which service.
 
@@ -57,7 +61,8 @@ Monitoring and performance: Performance tracking is critical since services run 
 Security: Data transfer between services should be encrypted and authorized.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐5️⃣ Key Concepts in Microservices 🛠️
+
+## 🔍⭐5️⃣ Key Concepts in Microservices 🛠️
 
 API Gateway: Layer that manages all requests and protects services from the outside world.
 
@@ -70,7 +75,8 @@ Circuit Breaker: Prevents system failure if a service fails.
 Event-Driven Architecture: Services communicate via event messages.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
-🔍⭐6️⃣ Best Practices for Microservices 🧩
+
+## 🔍⭐6️⃣ Best Practices for Microservices 🧩
 
 CI/CD Pipeline: Automated testing and deployment for each service.
 
@@ -80,8 +86,9 @@ Containerization (Docker): Running services in containers simplifies deployment.
 
 Orchestration (Kubernetes): Automates the management of services.
 
-🔍⭐7️⃣ Goals of Microservices 🎯
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+##🔍⭐7️⃣ Goals of Microservices 🎯
 
 Break large applications into small, manageable pieces
 
