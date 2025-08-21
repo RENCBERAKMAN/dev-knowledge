@@ -86,9 +86,9 @@ Containerization (Docker): Servisleri konteyner içinde çalıştırmak deploy k
 
 Orchestration (Kubernetes): Servislerin yönetimini otomatikleştirmek için.
 
-## 🔍⭐7️⃣ Microservices ile Hedeflenen Amaç 🎯
-
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐7️⃣ Microservices ile Hedeflenen Amaç 🎯
 
 Büyük uygulamaları küçük, yönetilebilir parçalara ayırmak
 
