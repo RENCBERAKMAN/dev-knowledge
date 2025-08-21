@@ -110,6 +110,50 @@ Sorgular daha hızlı ve yönetim daha kolay olur ✅
 
 📌 Ek ipucu: Normalizasyon genellikle 1NF, 2NF, 3NF gibi adımlarla yapılır. Ama bazı durumlarda performans için kontrollü denormalizasyon da tercih edilebilir.
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐CRUD işlemleri nelerdir? (Create, Read, Update, Delete)
+
+CRUD, veritabanı ya da bir uygulama üzerinde yapılabilen en temel dört işlemi ifade eder: Create, Read, Update, Delete. Bu işlemler, neredeyse tüm yazılımların ve veri yönetim sistemlerinin temelini oluşturur.
+
+Create (Oluştur) ✨
+Yeni bir veri eklemek için kullanılır.
+📌 Örnek: Bir kullanıcı kayıt formu doldurup gönderildiğinde, bu işlem veritabanına yeni bir kullanıcı ekler.
+
+Read (Oku) 📖
+Var olan veriyi okumak veya görüntülemek için kullanılır.
+📌 Örnek: Kullanıcıların listesini görmek için yapılan sorgu, Read işlemidir.
+
+Update (Güncelle) 🔄
+Mevcut veriyi değiştirmek için kullanılır.
+📌 Örnek: Bir kullanıcının e-posta adresini değiştirmek Update işlemidir.
+
+Delete (Sil) 🗑️
+Var olan veriyi sistemden silmek için kullanılır.
+📌 Örnek: Kullanıcı hesabının kalıcı olarak kaldırılması Delete işlemidir.
+
+✅ Kısaca:
+
+Create → Yeni veri ekle
+
+Read → Veri oku/görüntüle
+
+Update → Var olan veriyi değiştir
+
+Delete → Veriyi sil
+
+💡 Püf Nokta: CRUD işlemleri genellikle HTTP metodları ile de eşleştirilir:
+
+Create → POST
+
+Read → GET
+
+Update → PUT/PATCH
+
+Delete → DELETE
+
+Bu sayede hem veritabanı hem de REST API mantığı aynı temel prensipler üzerine kurulur.
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

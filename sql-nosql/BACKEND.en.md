@@ -95,7 +95,7 @@ Using indexes on foreign keys speeds up JOIN queries.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-🔍⭐What is Data Normalization?
+## 🔍⭐What is Data Normalization?
 
 Data normalization is a method of storing information in a database in an organized, non-redundant, and consistent way. The logic is simple: instead of storing the same information in multiple places, keep the data in one place and link it to other tables. This ensures data consistency and avoids unnecessary storage.
 
@@ -114,5 +114,50 @@ Queries become faster and management easier ✅
 “Each piece of data should be stored only once; repeating data should be linked through separate tables.”
 
 📌 Extra tip: Normalization is usually done in steps like 1NF, 2NF, 3NF. However, in some cases, controlled denormalization is preferred for performance reasons.
+
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐What are CRUD operations? (Create, Read, Update, Delete)
+
+CRUD refers to the four basic operations that can be performed on a database or an application: Create, Read, Update, Delete. These operations form the foundation of almost all software and data management systems.
+
+Create (Oluştur) ✨
+Used to add new data.
+📌 Example: When a user fills out and submits a registration form, this operation adds a new user to the database.
+
+Read (Oku) 📖
+Used to read or retrieve existing data.
+📌 Example: Running a query to view the list of users is a Read operation.
+
+Update (Güncelle) 🔄
+Used to modify existing data.
+📌 Example: Changing a user's email address is an Update operation.
+
+Delete (Sil) 🗑️
+Used to remove existing data from the system.
+📌 Example: Permanently deleting a user account is a Delete operation.
+
+✅ In short:
+
+Create → Add new data
+
+Read → Retrieve/view data
+
+Update → Modify existing data
+
+Delete → Remove data
+
+💡 Pro Tip: CRUD operations are often mapped to HTTP methods:
+
+Create → POST
+
+Read → GET
+
+Update → PUT/PATCH
+
+Delete → DELETE
+
+This way, both database and REST API logic are built upon the same core principles.
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
