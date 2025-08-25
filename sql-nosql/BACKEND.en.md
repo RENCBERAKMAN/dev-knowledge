@@ -159,5 +159,58 @@ Update → PUT/PATCH
 Delete → DELETE
 
 This way, both database and REST API logic are built upon the same core principles.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐ Key Points to Consider in Database Design
+
+1️⃣ Choosing the Right Data Structure 🏗️
+
+Tables, fields (columns), and data types should be defined correctly.
+
+Avoid extra columns or redundant/repetitive data.
+
+2️⃣ Normalization 📚
+
+Data should be organized to prevent duplication.
+
+Each piece of information must be stored in only one place, and relationships should be established using foreign keys.
+
+3️⃣ Establishing Proper Relationships 🔗
+
+One-to-One, One-to-Many, and Many-to-Many relationships must be clearly defined.
+
+Primary Keys and Foreign Keys should be used appropriately.
+
+4️⃣ Data Consistency and Integrity ✅
+
+Constraints (NOT NULL, UNIQUE, CHECK) should be applied to prevent invalid data entry.
+
+Referential integrity should be maintained with foreign keys.
+
+5️⃣ Performance and Indexing ⚡
+
+Indexes should be added to frequently queried columns.
+
+Avoid unnecessary indexes (too many indexes → slower write operations).
+
+6️⃣ Security 🔒
+
+Sensitive data (passwords, credit card details) should be encrypted.
+
+Authorization and access control must be implemented.
+
+7️⃣ Scalability and Flexibility 📈
+
+Database design should anticipate future growth of data.
+
+New tables or fields should be easily addable when needed.
+
+8️⃣ Backup and Recovery Plan 🗄️
+
+A regular backup strategy should be in place to prevent data loss.
+
+💡 Core Principle:
+Good database design = non-redundant data + proper relationships + consistency + performance + security.
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

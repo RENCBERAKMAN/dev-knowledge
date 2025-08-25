@@ -154,6 +154,58 @@ Delete → DELETE
 
 Bu sayede hem veritabanı hem de REST API mantığı aynı temel prensipler üzerine kurulur.
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## 🔍⭐ Veritabanı tasarımında dikkat edilmesi gereken temel noktalar
+
+1️⃣ Doğru Veri Yapısı Seçimi 🏗️
+
+Tablolar, alanlar (sütunlar) ve veri tipleri doğru tanımlanmalı.
+
+Fazladan sütun veya gereksiz tekrar eden veri olmamalı.
+
+2️⃣ Normalizasyon 📚
+
+Veriler tekrar etmeyecek şekilde düzenlenmeli.
+
+Her bilgi yalnızca bir yerde tutulmalı, ilişkiler foreign key ile sağlanmalı.
+
+3️⃣ İlişkilerin Doğru Kurulması 🔗
+
+One-to-One, One-to-Many, Many-to-Many ilişkiler net belirlenmeli.
+
+Doğru yerde Primary Key ve Foreign Key kullanılmalı.
+
+4️⃣ Veri Tutarlılığı ve Bütünlüğü ✅
+
+Constraint’ler (NOT NULL, UNIQUE, CHECK) ile yanlış veri girişi engellenmeli.
+
+Foreign key ile tablolar arası bütünlük korunmalı.
+
+5️⃣ Performans ve İndeksleme ⚡
+
+Sorgularda sık kullanılan sütunlara index eklenmeli.
+
+Ama gereksiz indexlerden kaçınılmalı (fazla index → yavaş yazma işlemi).
+
+6️⃣ Güvenlik 🔒
+
+Hassas veriler (şifre, kart bilgisi) şifrelenmeli.
+
+Yetkilendirme ve erişim kontrolü uygulanmalı.
+
+7️⃣ Ölçeklenebilirlik ve Esneklik 📈
+
+İleride verinin büyüyeceği düşünülmeli.
+
+Gerektiğinde yeni tablolar veya alanlar kolayca eklenebilmeli.
+
+8️⃣ Yedekleme ve Kurtarma Planı 🗄️
+
+Veri kaybına karşı düzenli yedekleme stratejisi olmalı.
+
+💡 Özet Mantık:
+İyi bir veritabanı tasarımı = tekrarsız veri + doğru ilişkiler + tutarlılık + performans + güvenlik.
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
