@@ -206,6 +206,10 @@ Veri kaybına karşı düzenli yedekleme stratejisi olmalı.
 
 💡 Özet Mantık:
 İyi bir veritabanı tasarımı = tekrarsız veri + doğru ilişkiler + tutarlılık + performans + güvenlik.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
