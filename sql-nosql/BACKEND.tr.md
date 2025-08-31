@@ -209,7 +209,68 @@ Veri kaybına karşı düzenli yedekleme stratejisi olmalı.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+## 🔍⭐🔐 SQL Injection Nedir?
 
+SQL Injection, bir web uygulamasının en tehlikeli ve en sık karşılaşılan güvenlik açıklarından biridir.
+
+Kısaca tanımlamak gerekirse: SQL injection, kullanıcıdan alınan verilerin (örneğin giriş formu, arama kutusu, URL parametresi) doğrudan SQL sorgusuna eklenmesi ve gerekli kontroller yapılmadan veritabanına gönderilmesi sonucu saldırganın kendi SQL kodlarını çalıştırabilmesidir.
+
+💡 Bunu basit düşün: Uygulaman veritabanına “sadece belirli bir veriyi sorgula” diye emir veriyor, ama saldırgan araya kendi cümlesini ekleyerek “hem istediğin sorguyu yap, hem de şunu da çalıştır” diyebiliyor.
+
+⚠️ Neden Tehlikelidir?
+
+🔓 Veri sızdırılabilir: Saldırgan tüm tablo verilerini (kullanıcı adı, şifre, e-posta) görebilir.
+
+✏️ Veri değiştirilebilir: Tabloya sahte kayıt eklenebilir, mevcut veriler güncellenebilir veya tamamen silinebilir.
+
+🚪 Yetkisiz erişim sağlanabilir: Normalde erişim hakkı olmayan bilgileri görebilir veya admin yetkisi elde edebilir.
+
+💥 Sistem tamamen çökebilir: Kritik tablolar silinirse uygulama kullanılmaz hale gelir.
+
+🔍 En Hassas Noktalar
+
+🚫 Kullanıcı girdisi asla güvenilir değildir.
+→ Basit bir OR '1'='1' ifadesi bile tüm kullanıcıların listelenmesine sebep olabilir.
+
+❌ Doğrudan string birleştirme en büyük hatadır.
+Örneğin:
+
+"SELECT * FROM users WHERE username = '" + input + "';"
+
+
+Eğer input doğrudan sorguya eklenirse → tamamen savunmasızsın.
+
+🌐 Sadece giriş formları değil: URL parametreleri, cookie değerleri, hatta HTTP header’ları bile risklidir.
+
+🕵️ Hatalı hata mesajları ipucu verir.
+→ Veritabanı hatalarını kullanıcıya göstermek, saldırganın yapıyı öğrenmesini kolaylaştırır.
+
+🛡️ Nasıl Önlenir?
+
+✅ Hazır parametreli sorgular (Prepared Statements) kullan:
+Değerler SQL’den ayrı tutulur → saldırgan sorgu yapısını değiştiremez.
+
+🏗️ ORM veya frameworklerin güvenli sorgu metodlarını tercih et:
+Örn: Hibernate, Django ORM, Entity Framework.
+
+🔍 Input doğrulama yap:
+Beklenen format dışında veri kabul etme. Örn: ID → sadece sayı.
+
+🔑 Minimum yetki prensibi uygula:
+Veritabanı kullanıcısına gereksiz yetkiler (DROP, ALTER, vb.) verme.
+
+🚫 Hata mesajlarını gizle:
+Kullanıcıya özel SQL hataları gösterme → genel hata mesajı döndür.
+
+🧪 Güvenlik testleri yap:
+Araçlar (örn: SQLMap) veya manuel testlerle uygulamayı kontrol et.
+
+🧩 Özet Mantık
+
+👉 SQL Injection’un özü şu:
+“Kullanıcının girdiği veri asla sorgunun bir parçası olmamalı, sadece sorgunun parametresi olmalı.”
+
+Bunu sağladığında en kritik güvenlik açığını kapatmış olursun. ✅
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
