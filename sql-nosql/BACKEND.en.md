@@ -37,36 +37,41 @@ NoSQL: Applications requiring flexible data structures and rapid growth; social 
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
-## 🔍⭐What is a JOIN operation? What’s the difference between INNER JOIN and LEFT JOIN?
-JOIN in SQL is used to combine data from multiple tables based on a common column. This column is usually an id or a foreign key. The goal is to display related data in a single result set.
+## 🔍⭐ What is a JOIN? What is the difference between INNER JOIN and LEFT JOIN?
+JOIN in SQL is used to combine data from multiple tables through a common column. This column is usually an id or a foreign key. The purpose is to display related data in a single result set.
 
-📌 Example: Suppose we have a Customers table and an Orders table. To get a customer’s order information, we use JOIN to combine these two tables.
+📌 Example: Suppose there is a Customers table and an Orders table. To get the order information of a customer, we combine these two tables with a JOIN.
 
 INNER JOIN 🔍
 
-Returns only the rows that have matching values in both tables.
+Brings only the records that match in both tables.
 
-If there’s no match, the row is not included in the result.
+If there is no match, that row will not appear in the result.
 
 Logic: Intersection set
 
-Example: A list of only the customers who have placed orders.
+Example: The list of customers who have placed an order.
 
 LEFT JOIN ↔️
 
-Returns all rows from the left table. If there’s no match in the right table, those columns will contain NULL.
+Brings all records from the left table. If there is no match in the right table, those columns will be NULL.
 
-Logic: All rows from the left table + data from the right table if it exists
+Logic: Entire left table + if right table exists, add extra data
 
-Example: A list of all customers, with empty order information for those who haven’t placed an order.
+Example: The list of all customers, with empty order information for those who have not placed any orders.
 
 ✅ Difference:
 
-INNER JOIN → Only matching rows ✅
+INNER JOIN → Only the matching ones ✅
 
-LEFT JOIN → All rows from the left table, add from the right if available, otherwise NULL 🗒️
+LEFT JOIN → Entire left, add right if exists, otherwise empty 🗒️
 
-💡 Pro Tip: Avoid unnecessary LEFT JOINs as they can hurt performance. To find non-matching records, use:
+💡 Tip: Unnecessary LEFT JOIN decreases performance. To find unmatched records, the technique
+
+LEFT JOIN ... WHERE right_table.column IS NULL
+
+
+is commonly used. On large datasets, using indexes speeds up the query.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
