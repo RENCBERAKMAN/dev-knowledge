@@ -120,3 +120,4 @@ Algoritma seçimi (HS256 vs RS256).
 Blacklist ve token iptali.
 
 Vizyon: JWT her zaman çözüm değildir; doğru stratejiyle, doğru yerde kullanıldığında hem güvenlik hem performans avantajı sağlar.
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
