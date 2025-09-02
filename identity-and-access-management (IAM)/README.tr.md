@@ -120,4 +120,8 @@ Algoritma seçimi (HS256 vs RS256).
 Blacklist ve token iptali.
 
 Vizyon: JWT her zaman çözüm değildir; doğru stratejiyle, doğru yerde kullanıldığında hem güvenlik hem performans avantajı sağlar.
+
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
+</p>
