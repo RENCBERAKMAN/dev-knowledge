@@ -124,5 +124,59 @@ Vision: JWT is not a universal solution; when used correctly and in the right co
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+
+## 🔍⭐ What is the Difference Between Authentication and Authorization?
+
+🔑 Authentication
+
+Answers the question: “Who are you?”
+
+The process of verifying whether the user is really the person they claim to be.
+
+Usually done through username + password, OTP (one-time password), fingerprint, facial recognition, etc.
+
+📌 Example:
+When you log into a website with your email and password, the server checks if the credentials match and confirms your identity. This process → authentication.
+
+🛂 Authorization
+
+Answers the question: “What can you do?”
+
+Determines what resources or actions the authenticated user is allowed to access.
+
+Comes into play after authentication.
+
+📌 Example:
+After logging in:
+
+A regular user can only see their own profile,
+
+While an admin user can manage all users.
+This difference in access → authorization.
+
+✅ In Short
+
+Authentication → Identity verification (recognizing the user)
+
+Authorization → Permission control (deciding what the user can do)
+
+💡 Pro Tips
+
+For strong security, both must work together.
+
+Authorization cannot happen without authentication.
+
+In JWT, OAuth2, and similar technologies:
+
+Authentication → Generating the token
+
+Authorization → Checking roles/permissions inside the token to grant access.
+
+👉 Core Idea:
+
+Authentication = Checking who’s at the door.
+
+Authorization = Deciding which rooms they can enter once inside. 🚪🔐
+
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

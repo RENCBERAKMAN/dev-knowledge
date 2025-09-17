@@ -123,5 +123,59 @@ Vizyon: JWT her zaman çözüm değildir; doğru stratejiyle, doğru yerde kulla
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+
+## 🔍⭐ Authentication ile Authorization Farkı Nedir?
+
+🔑 Authentication (Kimlik Doğrulama)
+
+“Sen kimsin?” sorusuna cevap verir.
+
+Kullanıcının gerçekten iddia ettiği kişi olup olmadığını doğrulama sürecidir.
+
+Genellikle kullanıcı adı + şifre, OTP (tek seferlik şifre), parmak izi, yüz tanıma gibi yöntemlerle yapılır.
+
+📌 Örnek:
+Bir web sitesine giriş yaparken e-posta ve şifre girersin. Sunucu bu bilgileri kontrol eder ve gerçekten sana ait olup olmadığını doğrular. Bu süreç → authentication.
+
+🛂 Authorization (Yetkilendirme)
+
+“Ne yapabilirsin?” sorusuna cevap verir.
+
+Kullanıcının hangi kaynaklara veya işlemlere erişim hakkı olduğunu belirler.
+
+Authentication başarılı olduktan sonra devreye girer.
+
+📌 Örnek:
+Giriş yaptıktan sonra:
+
+Normal kullanıcı sadece kendi profilini görebilirken,
+
+Admin kullanıcı tüm kullanıcıları yönetebilir.
+Bu erişim farkı → authorization.
+
+✅ Kısaca Fark
+
+Authentication → Kimlik doğrulama (kullanıcıyı tanıma)
+
+Authorization → Yetkilendirme (ne yapabileceğini belirleme)
+
+💡 Püf Noktalar
+
+İyi bir güvenlik için ikisi birlikte kullanılmalıdır.
+
+Authentication olmadan authorization yapılamaz.
+
+JWT, OAuth2 gibi teknolojilerde genelde:
+
+Authentication → Token üretmek,
+
+Authorization → Token içindeki role/izinlere göre erişimi kontrol etmek şeklinde uygulanır.
+
+👉 Özet Mantık:
+
+Authentication = Kapıya gelenin kim olduğunu kontrol etmek.
+
+Authorization = İçeri girdikten sonra hangi odalara girebileceğini belirlemek. 🚪🔐
+
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
