@@ -27,6 +27,8 @@ Bu dosyayı bir “veri kutusu” gibi düşün.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
 ## 2️⃣ Service → "Mantık Katmanı"
 📘 Ne işe yarar?
 
@@ -61,6 +63,8 @@ Service sadece “mantığı” bilir.
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
 ## 3️⃣ Controller → "Yönlendirme Katmanı"
 📘 Ne işe yarar?
 
@@ -83,6 +87,9 @@ Controller, API kapısıdır.
 Tarayıcı veya frontend’den istek gelir → Controller alır → Servis’e gönderir.
 
 Service işi yapar → sonucu Controller’a döner → Controller kullanıcıya gönderir.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
 ## 4️⃣ Repository → "Veri Tabanı Katmanı"
@@ -112,6 +119,9 @@ Açıklama:
 “Service”, Repository ile konuşur.
 
 “Controller”, Repository ile asla direkt konuşmaz!
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
 # 🔹 Controller = “kapı”
