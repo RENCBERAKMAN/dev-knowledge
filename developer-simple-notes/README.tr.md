@@ -49,6 +49,7 @@ Başarılıysa hangi mesaj dönecek?
 
 service/NoteService.java
 
+![Java Code 1](https://raw.githubusercontent.com/RENCBERAKMAN/dev-knowledge/main/images/javacode1.jpg)
 
 Açıklama:
 
@@ -71,6 +72,9 @@ Yani kullanıcı /notes adresine istek atarsa bu sınıf devreye girer.
 📦 Örnek:
 
 controller/NoteController.java
+
+![Java Code 2](https://raw.githubusercontent.com/RENCBERAKMAN/dev-knowledge/main/images/javacode2.jpg)
+
 
 Açıklama:
 
@@ -99,6 +103,7 @@ Filtrelemek gibi işleri yapar.
 
 Spring Boot’ta genellikle şöyle olur:
 
+![Java Code 3](https://raw.githubusercontent.com/RENCBERAKMAN/dev-knowledge/main/images/javacode3.jpg)
 
 Açıklama:
 
@@ -108,6 +113,11 @@ Açıklama:
 
 “Controller”, Repository ile asla direkt konuşmaz!
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+# 🔹 Controller = “kapı”
+# 🔹 Service = “beyin”
+# 🔹 Repository = “veriyle konuşan kişi”
+# 🔹 Model = “verinin şekli”
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
