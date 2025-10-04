@@ -15,7 +15,7 @@ Yani bir “not”, “kullanıcı” veya “ürün” nasıl görünüyorsa, o
 
 model/Note.java
 
-https://raw.githubusercontent.com/RENCBERAKMAN/dev-knowledge/main/images/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-10-04%20082848.jpg
+https://raw.githubusercontent.com/RENCBERAKMAN/dev-knowledge/main/images/javacodee.jpg
 
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
