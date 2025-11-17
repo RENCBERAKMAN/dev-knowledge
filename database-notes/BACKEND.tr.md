@@ -304,7 +304,100 @@ ORDER BY ve GROUP BY gibi işlemler index sayesinde daha hızlı çalışır.
 
 👉 Index = “Veriyi daha hızlı bulmak için oluşturulmuş rehber.”
 Eğer büyük tablolarda performans sorunu yaşıyorsan doğru tasarlanmış indexler, sorguların hızını kat kat artırır. 🚀
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+## ⭐⭐⭐Veri Tabanı Alanında Kariyer ve Pozisyonlar⭐⭐⭐
+
+Veri Tabanı Yöneticisi (DBA)
+Veri tabanının kurulumundan, yapılandırılmasından, güvenliğinden, performansından ve yedeklemesinden sorumludur.
+
+Veri Tabanı Programcısı (Database Developer)
+Function, procedure, trigger, servis gibi veri tabanı programlama yapılarının geliştirilmesinden sorumludur.
+
+Veri Tabanı Tasarımcısı / Mimarı (Database Designer - Architect)
+Varlıkların veri tabanı içinde modellenmesi, normalizasyon ve ilişkilerin oluşturulmasından sorumludur.
+
+Analist – Veri Bilimci – İş Zekası Uzmanı
+Verileri analiz edip raporlar, görselleştirir ve karar destek süreçlerine katkı sağlar.
+
+Veri Tabanı Test Uzmanı
+Veri tabanı programcısının geliştirdiği işlemlerin doğruluğunu ve performansını test eder.
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Yaygın Kullanılan Veri Tabanları⭐⭐⭐
+✅PostgreSQL
+
+• ORDBMS yapısındadır (Nesne-İlişkisel).
+• SQL + JSON sorgulama desteği olan tek ilişkisel veri tabanı.
+• Açık kaynak kodlu.
+• 1996’da yayınlandı.
+• Windows, Mac, Linux, Solaris üzerinde çalışır.
+• Ücretsizdir.
+• Dinamik web siteleri ve OLTP için uygundur.
+Dezavantaj: Topluluk tarafından geliştiriliyor.
+
+✅Microsoft SQL Server
+
+• 1989’da Microsoft tarafından yayımlandı.
+• C ve C++ ile yazıldı.
+• Windows ve Linux üzerinde çalışır.
+• .NET, Java, PHP, Python gibi birçok dili destekler.
+• Web servisleri, e-ticaret ve OLTP süreçlerinde yaygındır.
+• Express, Standard, BI, Enterprise sürümleri vardır.
+Dezavantaj: Lisans maliyeti yüksek.
+
+✅MySQL
+
+• Açık kaynak kodlu en popüler ilişkisel veri tabanlarından biridir.
+• 1995’te geliştirildi, 2010’da Oracle satın aldı.
+• Web uygulamalarında çok yaygındır.
+• Windows, Linux, MacOS dahil birçok platformda çalışır.
+• Facebook, Twitter, YouTube, Uber gibi dev şirketler tarafından kullanılır.
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐OLAP – OLTP – Big Data Kavramları⭐⭐⭐
+✅OLAP
+
+• Amaç: Büyük hacimli verileri analiz etmek.
+• Veri kaynağı: Birden fazla kaynak.
+• Yapı: Çok boyutlu modeller (küp yapıları).
+• Kullanım: Trend analizi, müşteri davranışı, kârlılık.
+
+✅OLTP
+
+• Amaç: Gerçek zamanlı işlemlerin işlenmesi.
+• Veri kaynağı: Tek kaynak (işlemsel veri).
+• Yapı: İlişkisel veri tabanı.
+• Kullanım: Ödeme işlemleri, sipariş yönetimi.
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐NoSQL Veri Tabanlarında Sorgulama Dili⭐⭐⭐
+
+NoSQL ailesinde SQL gibi standart bir sorgu dili yoktur.
+Çoğu sistem kendi API'larını kullanır.
+
+Örnekler:
+MongoDB → MQL
+Cassandra → CQL
+Redis → Key-Value komutları
+
+■ ⭐SQL Veri Tabanlarında CRUD⭐
+
+Create → Insert komutuyla veri eklenir.
+Read → Select ile veri okunur.
+Update → Update ile veri güncellenir.
+Delete → Delete ile veri silinir.
+
+■ ⭐SQL Komut Grupları⭐
+
+DDL → create, drop, alter, truncate, rename
+DQL → select
+DML → insert, update, delete
+DCL → grant, revoke
+TCL → commit, rollback, savepoint
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
