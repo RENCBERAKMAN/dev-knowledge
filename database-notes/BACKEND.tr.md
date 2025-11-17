@@ -468,6 +468,34 @@ NoSQL
 • Performans öncelikli
 • Yapısal olmayan veriler için ideal
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐SQL vs NoSQL Veri İşlemleri (Örnek Karşılaştırma)⭐⭐⭐
+
+SQL tablo oluşturma → “create table ogrenci (id, ad, soyad)”
+MongoDB koleksiyon oluşturma → “db.createCollection(‘OGRENCI’)”
+
+SQL veri ekleme → “insert into ogrenci values (1, ‘Mehmet’, ‘Çelebi’)”
+MongoDB veri ekleme → “db.OGRENCI.insert({id:1, ad:'Mehmet', soyad:'Çelebi'})”
+
+SQL güncelleme → “update ogrenci set ad='Ahmet' where id=1”
+MongoDB güncelleme → “db.OGRENCI.update({id:1}, {$set:{ad:'Ahmet'}})”
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Açık Kaynak – Kapalı Kaynak Veri Tabanları⭐⭐⭐
+Açık Kaynak (Open Source)
+
+MySQL, MariaDB, PostgreSQL, MongoDB, SQLite, Redis
+• Ücretsiz
+• Topluluk desteği
+• Kod açık
+
+Kapalı Kaynak (Commercial)
+
+Oracle, SQL Server, IBM DB2
+• Lisans maliyeti yüksek
+• Profesyonel destek
+• Güçlü güvenlik
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>

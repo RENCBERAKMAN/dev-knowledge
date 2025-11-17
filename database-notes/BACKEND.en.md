@@ -282,6 +282,8 @@ Use tools (e.g., SQLMap) or manual penetration tests to ensure safety.
 “User input must never become part of the query itself — it should only be a parameter of the query.”
 
 If you follow this rule, you eliminate one of the most critical security risks. ✅
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
 
 ## 🔍⭐ What is an Index and Why is it Important in Databases?
 
@@ -315,6 +317,210 @@ Indexes are most useful on columns that are frequently searched or filtered (com
 
 👉 Index = “A guide built to find data faster.”
 If you’re facing performance issues in large tables, well-designed indexes can boost your queries dramatically. 
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 
+## ⭐⭐⭐Career and Positions in the Database Field⭐⭐⭐
+
+Database Administrator (DBA)
+Responsible for installing, configuring, securing, optimizing, and backing up the database.
+
+Database Developer
+Responsible for developing database programming structures such as functions, procedures, triggers, and services.
+
+Database Designer / Architect
+Responsible for modeling entities within the database, normalization, and creating relationships.
+
+Analyst – Data Scientist – Business Intelligence Specialist
+Analyzes data, creates reports, visualizes results, and supports decision-making processes.
+
+Database Test Specialist
+Tests the accuracy and performance of the operations developed by the database programmer.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Commonly Used Databases⭐⭐⭐
+
+✅PostgreSQL
+
+• It is an ORDBMS (Object-Relational Database Management System).
+• The only relational database with SQL + JSON query support.
+• Open source.
+• Released in 1996.
+• Runs on Windows, Mac, Linux, Solaris.
+• Free of charge.
+• Suitable for dynamic websites and OLTP.
+Disadvantage: Developed by the community.
+
+✅Microsoft SQL Server
+
+• Released by Microsoft in 1989.
+• Written in C and C++.
+• Runs on Windows and Linux.
+• Supports many languages: .NET, Java, PHP, Python, etc.
+• Commonly used in web services, e-commerce, and OLTP processes.
+• Versions include Express, Standard, BI, Enterprise.
+Disadvantage: High licensing cost.
+
+✅MySQL
+
+• One of the most popular open-source relational databases.
+• Developed in 1995, acquired by Oracle in 2010.
+• Widely used in web applications.
+• Works on Windows, Linux, MacOS and more.
+• Used by major companies such as Facebook, Twitter, YouTube, Uber.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐OLAP – OLTP – Big Data Concepts⭐⭐⭐
+
+✅OLAP
+
+• Purpose: Analyze large volumes of data.
+• Data source: Multiple sources.
+• Structure: Multidimensional models (cube structures).
+• Usage: Trend analysis, customer behavior, profitability.
+
+✅OLTP
+
+• Purpose: Processing real-time transactions.
+• Data source: Single source (transactional data).
+• Structure: Relational database.
+• Usage: Payment operations, order management.
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Query Languages in NoSQL Databases⭐⭐⭐
+
+No standard query language like SQL exists in NoSQL databases.
+Most systems use their own APIs.
+
+Examples:
+MongoDB → MQL
+Cassandra → CQL
+Redis → Key-Value commands
+
+■ ⭐CRUD in SQL Databases⭐
+
+Create → Data is inserted using the Insert command.
+Read → Data is retrieved using Select.
+Update → Data is modified using Update.
+Delete → Data is removed using Delete.
+
+■ ⭐SQL Command Groups⭐
+
+DDL → create, drop, alter, truncate, rename
+DQL → select
+DML → insert, update, delete
+DCL → grant, revoke
+TCL → commit, rollback, savepoint
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Normalization (2NF, 3NF, etc.)⭐⭐⭐
+
+Main purpose:
+• Prevent data redundancy
+• Ensure data consistency
+• Prevent update, delete, and insert anomalies
+• Separate tables into logical entities
+• Store each attribute in its own table
+
+Normalization exists in SQL databases.
+Normalization is not used in NoSQL because data is distributed.
+
+■ Database Design
+
+Defines the data structure, creates tables, and designs relationships.
+Good design:
+• Reduces data redundancy
+• Speeds up queries
+• Improves consistency
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐ACID and BASE Principles⭐⭐⭐
+
+ACID (SQL databases)
+
+Atomicity → A transaction either fully happens or does not happen at all.
+Consistency → Data must remain consistent until the transaction is completed.
+Isolation → Transactions do not interfere with each other.
+Durability → Even if the system crashes, the transaction remains permanent.
+
+BASE (NoSQL databases)
+
+Basically Available → High availability
+Soft State → Data does not have to be instantly consistent
+Eventually Consistent → Data becomes consistent over time
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐CAP Theorem⭐⭐⭐
+
+In distributed systems, only two of the three properties can be achieved simultaneously:
+
+Consistency
+Availability
+Partition Tolerance
+
+CA: Oracle, MySQL, PostgreSQL
+CP: MongoDB, Redis, BigTable
+AP: Cassandra, CouchDB, DynamoDB
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Types of NoSQL Databases⭐⭐⭐
+
+Document → JSON/XML (MongoDB, CouchBase)
+Key-Value → Redis, DynamoDB
+Wide-Column → Cassandra, HBase
+Graph → Neo4j, Amazon Neptune
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐SQL – NoSQL Selection⭐⭐⭐
+
+SQL
+• Consistent
+• Strong querying capability
+• Scales vertically
+• Ideal when data integrity is critical
+
+NoSQL
+• Flexible
+• Scales horizontally
+• Performance-oriented
+• Ideal for unstructured data
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐SQL vs NoSQL Data Operations (Example Comparison)⭐⭐⭐
+
+SQL table creation → “create table ogrenci (id, ad, soyad)”
+MongoDB collection creation → “db.createCollection(‘OGRENCI’)”
+
+SQL data insertion → “insert into ogrenci values (1, ‘Mehmet’, ‘Çelebi’)”
+MongoDB data insertion → “db.OGRENCI.insert({id:1, ad:'Mehmet', soyad:'Çelebi'})”
+
+SQL update → “update ogrenci set ad='Ahmet' where id=1”
+MongoDB update → “db.OGRENCI.update({id:1}, {$set:{ad:'Ahmet'}})”
+
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Open Source – Commercial Databases⭐⭐⭐
+
+Open Source
+
+MySQL, MariaDB, PostgreSQL, MongoDB, SQLite, Redis
+• Free
+• Community support
+• Open code
+
+Commercial
+
+Oracle, SQL Server, IBM DB2
+• High licensing cost
+• Professional support
+• Strong security
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
 </p>
