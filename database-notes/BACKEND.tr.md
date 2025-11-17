@@ -396,6 +396,43 @@ DML → insert, update, delete
 DCL → grant, revoke
 TCL → commit, rollback, savepoint
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐Normalizasyon (2NF, 3NF, vb.)⭐⭐⭐
+
+Temel amaç:
+• Veri tekrarını önlemek
+• Veri tutarlılığını sağlamak
+• Güncelleme, silme ve ekleme anomalilerini engellemek
+• Tabloları mantıklı varlıklara ayırmak
+• Her özelliği kendi tablosunda tutmak
+
+SQL veri tabanlarında normalizasyon vardır.
+NoSQL’de normalizasyon olmaz çünkü dağıtık yapıda veri bölünür.
+
+■ Veri Tabanı Tasarımı
+
+Verinin yapısı belirlenir, tablolar oluşturulur, ilişkiler tasarlanır.
+Doğru tasarım:
+• Veri tekrarını azaltır
+• Sorguları hızlandırır
+• Tutarlılığı artırır
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐ACID ve BASE Prensipleri⭐⭐⭐
+ACID (SQL veri tabanları)
+
+Atomicity → İşlem ya tamamen olur ya hiç olmaz.
+Consistency → İşlem bitene kadar veri tutarlı olmalıdır.
+Isolation → Transactionlar birbirini etkilemez.
+Durability → Sistem çökse bile işlem kalıcıdır.
+
+BASE (NoSQL veri tabanları)
+
+Basically Available → Yüksek erişilebilirlik
+Soft State → Veri sürekli tutarlı olmak zorunda değildir
+Eventually Consistent → Zamanla tutarlı hale gelir
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+<hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <p align="center">
