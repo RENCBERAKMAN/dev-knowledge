@@ -432,8 +432,41 @@ Basically Available → Yüksek erişilebilirlik
 Soft State → Veri sürekli tutarlı olmak zorunda değildir
 Eventually Consistent → Zamanla tutarlı hale gelir
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐CAP Teoremi⭐⭐⭐
+
+Dağıtık sistemlerde üç özellikten aynı anda ikisi seçilir:
+
+Consistency (Tutarlılık)
+Availability (Erişilebilirlik)
+Partition Tolerance (Hata toleransı)
+
+CA: Oracle, MySQL, PostgreSQL
+CP: MongoDB, Redis, BigTable
+AP: Cassandra, CouchDB, DynamoDB
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐NoSQL Veri Tabanı Türleri⭐⭐⭐
+
+Document → JSON/XML (MongoDB, CouchBase)
+Key-Value → Redis, DynamoDB
+Wide-Column → Cassandra, HBase
+Graph → Neo4j, Amazon Neptune
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
+
+## ⭐⭐⭐SQL – NoSQL Seçimi⭐⭐⭐
+
+SQL
+• Tutarlı
+• Güçlü sorgulama
+• Dikey ölçeklenir
+• Veri bütünlüğü kritik
+
+NoSQL
+• Esnek
+• Yatay ölçeklenir
+• Performans öncelikli
+• Yapısal olmayan veriler için ideal
 <hr style="border: 50px solid #4CAF50; margin: 20px 0;">
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontColor=ffffff" />
